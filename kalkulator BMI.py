@@ -1,0 +1,6 @@
+print("jaka masz wage ciala?")
+waga = float(input())
+print("podaj wzrost w metrach")
+wzrost = float(input())
+BMI = waga / (wzrost **2)
+print("twoje BMI wynosi:", BMI)
